@@ -1,0 +1,248 @@
+@charset "utf-8";
+
+Body {
+    font-family: Arial, calibri;
+    width: 1333px;
+}
+
+header {
+    background: url("HTML/mo.jpeg") no-repeat;
+    background-size: 100%;
+    height: 187px;
+    width: 1333px;
+    margin-top: -21px;
+    padding-right: 7px;
+}
+
+
+header  H1{
+    color:#006400;
+    margin-left: 80px;
+    text-shadow: 0.2px 1px 0.03px #000000;
+}
+
+header strong a:hover{
+    color:#FF4500;
+}
+
+header strong a{
+    text-decoration: none;
+    font-size: 17px;
+    color: #2F4F4F;
+    margin-left: 29px;
+    transition: color 0.2s;
+}
+
+section .d1 {
+    background: url("HTML/fundo1.jpg") no-repeat;
+    background-size: 100%;
+    margin: -25px -8px 42px -8px;
+}
+
+section .d1 H2 {
+    font-size: 30px;
+    color: #1C1C1C;
+    text-shadow: 1px 0.31px 3px #FFFFF0;
+    text-align: center;
+}
+
+
+section .d1 nav strong a:hover{
+    color: #FF0000;
+}
+
+
+section .d1 nav strong a{
+    text-shadow: black 1.5px 1.1px 3px;
+    color: yellow;
+    list-style:none;
+    text-decoration: none;
+    font-size:17px;
+    display: inline-block ;
+    margin-right: 29px;
+    padding: 60px 0px 20px 95px;
+    transition: color 0.5s;
+}
+
+section .d1 .b{
+    padding: 2px;
+    margin-left: 450px;
+}
+section .d1 .p{
+    width: 14.8%;
+    padding: 1px;
+    margin-left: 90px;
+}
+
+section .d2 H2{
+    color: #1BCB30;
+    text-shadow: darkgreen 2px 2px 0px;
+    font-size: 50px;
+    text-align: center;
+    margin-left: 650px;
+}
+
+section .d2 .android a:hover{
+    color: #1304EF;
+}
+
+
+section .d2 .android a{
+    text-shadow: 1px 1px black;
+    margin-top: 8px;
+    margin-left: 800px;
+    font-family: Arial;
+    color: #A5091B;
+    font-size: 25px;
+    text-decoration: none;
+    display: block;
+    transition: color 0.6s;
+}
+
+section .d2 {
+    background: url("HTML/android.jpg") no-repeat;
+    margin: -42px -8px 0px -7px;
+    padding-bottom: 300px;
+    padding-top: 1px;
+}
+
+
+
+section .d3 {
+    background:url("HTML/bird2.jpeg") no-repeat;
+    margin: -190px -8px 0px -8px;
+    padding-bottom: 100%;
+}
+ section .d3 .dd3 H2{
+     color: #F00404;
+     text-shadow: 1px 1px 1px #242323;
+     padding-top: 30px;
+     margin-top: 10px ;
+     margin-bottom: 30px;
+     margin-left: 5px;
+     font-size: 40px;
+ }
+
+section .d3 .dd3 .p1{
+    text-align: right;
+    width: 350px;
+    color: white;
+    margin-top: -120px;
+    margin-left: 980px;
+    font-size: 22px;
+
+}
+
+section .d3 .dd3 .p2{
+    color: #F6F2F2;
+    text-align: right;
+    width: 350px;
+    font-size: 22px;
+    margin-top: 50px;
+    margin-left: 980px;
+}
+
+section .pr{
+    background: url("HTML/jogo.jpg") no-repeat;
+    margin-left: -8px;
+    padding-bottom: 620px;
+    margin-top: -1379px;
+}
+
+section .pr H2{
+    padding-top: 20px;
+    margin-left: 120px;
+    font-size: 40px;
+    color:#0890AE;
+    text-shadow: 2px 2px #222424;
+}
+
+section .pr ul{
+    margin-top: -10px;
+    margin-left: 112px;
+    font-size: 25px;
+    color:#0890AE;
+    text-shadow: 1px 1px 1px #222424;
+}
+
+section .pr figure{
+    margin-top: -257px;
+}
+
+section .pr figure img{
+    width: 362px;
+    margin-left: 947px;
+}
+
+section .ft H2:hover{
+    color: red;
+}
+
+section .ft H2{
+    text-align: center;
+    font-size: 40px;
+    color: #F9F9ED;
+    text-shadow: 3px 1px black;
+    background:#03378A;
+    margin-left: -42px;
+    padding-top: 60px;
+    height: 100px;
+    width: 1349px;
+    transition: color 0.6s;
+}
+
+section .ft H2 a{
+    color: #EBE703;
+    text-shadow: 3px 1px #525101;
+}
+
+section .ft{
+    background: url("HTML/selfie.jpg") no-repeat 400px 164px;
+    width: 1307px;
+    margin-top: -683px;
+    margin-left: -20px;
+    padding-left: 54px;
+    padding-top: 10px;
+}
+
+
+section .ft figure img{
+    width: 400px;
+    margin-top: -33px;
+    margin-left: -84px;
+}
+
+aside {
+    background: url("HTML/carre.jpg")no-repeat;
+    height: 549px;
+    width: 1000px;
+    padding-bottom: 200px;
+    margin-left: 200px;
+}
+
+aside H2:hover{
+    color: #0DFB00;
+}
+
+aside H2{
+    color: #1844F7;
+    font-size: 50px;
+    background: black;
+    text-align: center;
+    text-shadow: 2px 1px #7276F5;
+    transition: 0.5s;
+    width: 1349px;
+    margin-top: -20px;
+    margin-left: -210px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+footer{
+    background: #1304EF;
+    height: 200px;
+    width: 1349px;
+    margin-top: 60px;
+    margin-left: -8px;
+
+}

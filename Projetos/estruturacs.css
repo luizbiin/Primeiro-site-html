@@ -1,0 +1,125 @@
+@charset "utf-8";
+
+body{
+    font-family: Arial , calibri;
+}
+
+body .topo{
+    background: dimgrey;
+    height: 200px;
+    width: 1349px;
+    margin-top: -8px;
+    margin-left: -8px;
+}
+body .topo header{
+    background: #b3d4fc;
+
+    height: 50px;
+    width: 1000px;
+
+    position: absolute;
+    top: 10px;
+    left: 40px;
+}
+
+body .topo nav{
+    background: #FF0000;
+
+    height: 50px;
+    width: 1349px;
+    position: absolute;
+    top:80px;
+
+}
+
+section{
+    background: chocolate;
+    height: 1338px;
+    width: 800px;
+    margin-top: 90px;
+    margin-left: 20px;
+}
+
+
+
+article div{
+    display: inline;
+    height: 370px;
+    width: 375px;
+}
+
+article .art1{
+    background: #0890AE;
+    position: absolute;
+    top: 850px;
+    left: 45px;
+
+}
+
+article .art2{
+    background: #1BCB30;
+    position: absolute;
+    top: 850px;
+    left: 435px;
+}
+
+
+article .art3{
+    background: #A5091B;
+    position: absolute;
+    top: 1240px;
+    left: 45px;
+}
+
+article .art4{
+    background: #555555;
+    position: absolute;
+    top: 1240px;
+    left: 435px;
+}
+
+aside div{
+    display: inline-block;
+    height:258px ;
+    width:470px ;
+    left: 845px;
+}
+
+aside .asi1{
+    background: brown;
+    position: absolute;
+    top: 290px;
+}
+
+aside .asi2{
+    background: steelblue;
+    position: absolute;
+    top: 560px;
+}
+
+aside .asi3{
+    background: limegreen;
+    position: absolute;
+    top: 830px;
+}
+
+aside .asi4{
+    background: fuchsia;
+    position: absolute;
+    top: 1100px;
+}
+
+aside .asi5{
+    background: aqua;
+    position: absolute;
+    top: 1370px;
+}
+
+footer{
+    background: #1304EF;
+    height: 200px;
+    width: 1349px;
+    margin-top: 60px;
+    margin-left: -8px;
+
+}
